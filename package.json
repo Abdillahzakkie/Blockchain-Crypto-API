@@ -1,0 +1,28 @@
+{
+  "name": "BlockchainApi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app/index.js",
+    "dev": "nodemon src/dev-test.js",
+    "test": "jest --watchAll"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^24.8.0",
+    "nodemon": "^1.19.1"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "dependencies": {
+    "crypto-js": "^3.1.9-1",
+    "elliptic": "^6.5.3",
+    "express": "^4.17.1",
+    "uuid": "^8.2.0",
+    "ws": "^7.3.1"
+  }
+}
